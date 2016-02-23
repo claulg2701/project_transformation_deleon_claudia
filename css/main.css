@@ -13,7 +13,7 @@ h3 {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: 200;
     font-family: 'Oswald', Sans-Serif;
     color: #222222;
 }
@@ -22,12 +22,9 @@ h1 {
     font-size: 2em;
 }
 
-h2 {
-    font-size: 2.8em;
-}
-
+h2,
 h3 {
-    font-size: 1.6em;
+    font-size: 2.8em;
 }
 
 p,
@@ -299,19 +296,19 @@ a {
     padding: 0;
 }
 
-#sidebar li ul {
+#sidebar section ul {
     margin: 0;
     padding-bottom: 30px;
 }
 
-#sidebar li li {
+#sidebar section li {
     line-height: 40px;
     border-bottom: 1px solid #e7ebed;
     margin: 0 0;
     border-left: none;
 }
 
-#sidebar li li span {
+#sidebar section li span {
     display: block;
     margin-top: -20px;
     padding: 0;
@@ -319,14 +316,14 @@ a {
     font-style: italic;
 }
 
-#sidebar li li a {
+#sidebar section li a {
     padding: 0 0 0 20px;
     background: url("../img/img04.jpg") no-repeat left 50%;
 }
 
-#sidebar h2 {
+#sidebar h3 {
     height: 38px;
-    padding: 0 0 30 0;
+    padding: 0 0 30px 0;
     letter-spacing: -0.5px;
     font-size: 1.8em;
     color: #222222;
@@ -498,4 +495,15 @@ a {
 
 .list-style1 a {
     color: #7f7f7f;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
