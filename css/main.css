@@ -470,9 +470,14 @@ a {
 
 #banner {
     margin: 0 auto;
-    width: 1000px;
-    height: 340px;
+    width: 100%;
+    max-width: 950px;
     background: url("../img/img03.png") no-repeat left bottom;
+}
+
+#banner img {
+    width: 100%;
+    padding-bottom: 35px; /* allow banner background image to show */
 }
 
 .list-style1 {
