@@ -75,14 +75,14 @@ a {
 
 #logo {
     margin: 0;
-    padding: 0;
+    padding-left: 1em;
     color: #ffffff;
 }
 
 #logo h1 {
     line-height: 1.5em;
     letter-spacing: -2px;
-    font-size: 3em;
+    font-size: 3.2em;
 }
 
 #logo h1 a {
@@ -349,9 +349,9 @@ a {
     width: 1px;
 }
 
-@media (min-width: 950px) {
+@media (min-width: 1200px) {
     #header {
-        padding-top: 1em;
+        padding: 1.5em 0;
     }
     #header::after {
         content: "";
@@ -363,6 +363,5 @@ a {
     }
     #logo {
         float: left;
-        padding: 1em 0;
-    }
+      }
 }
