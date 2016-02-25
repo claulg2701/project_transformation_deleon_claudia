@@ -125,12 +125,12 @@ a {
 }
 
 #menu ul li {
-    display: inline-block;
+    display: block;
 }
 
 #menu a {
     display: block;
-    padding: 2em 1em;
+    padding: 1em;
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
@@ -361,7 +361,13 @@ a {
     #menu {
         float: right;
     }
+    #menu ul li {
+        display: inline-block;
+    }
+    #menu a {
+        padding: 2em 1em;
+    }
     #logo {
         float: left;
-      }
+    }
 }
