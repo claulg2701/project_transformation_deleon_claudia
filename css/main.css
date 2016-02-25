@@ -198,11 +198,11 @@ a {
 }
 
 .post .meta {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     padding: 10px 0 0 0;
     text-align: left;
     font-family: 'Abel', sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 300;
 }
 
