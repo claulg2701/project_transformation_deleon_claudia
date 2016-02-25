@@ -5,7 +5,7 @@ In this assignment, I converted a static site into a responsive design using a M
 ## Links
 
 - [Link to project on Git](https://github.com/claulg2701/project_transformation_deleon_claudia.git)
-- [Link to project in portfolio](http://www.claudia-deleon.com/advanced_web/responsive_transfotmation/)
+- [Link to project in portfolio](http://www.claudia-deleon.com/advanced_web2/responsive_transfotmation/)
 
 ## Resources
 
