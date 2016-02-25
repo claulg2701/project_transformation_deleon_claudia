@@ -256,17 +256,19 @@ a {
 }
 
 #sidebar section li {
-    line-height: 40px;
     border-bottom: 1px solid #e7ebed;
     margin: 0 0;
     border-left: none;
+}
+
+#sidebar ul > * + * {
+    padding: 6px;
 }
 
 #sidebar section li span {
     display: block;
     margin-top: -20px;
     padding: 0;
-    font-size: 1em;
     font-style: italic;
 }
 
@@ -279,7 +281,7 @@ a {
     line-height: 180%;
     padding: 0 0 30px 0;
     letter-spacing: -0.5px;
-    font-size: 1.8em;
+    font-size: 1.6em;
     color: #222222;
 }
 
