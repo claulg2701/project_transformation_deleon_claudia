@@ -229,13 +229,6 @@ a {
     text-decoration: none;
 }
 
-@media (min-width: 768px) {
-    .more,
-    .comments {
-        padding: 5px;
-    }
-}
-
 .strong {
     font-weight: bold;
 }
@@ -347,6 +340,15 @@ a {
     padding: 0;
     position: absolute;
     width: 1px;
+}
+
+/* reduce button size to match original design */
+
+@media (min-width: 768px) {
+    .more,
+    .comments {
+        padding: 5px;
+    }
 }
 
 @media (min-width: 1000px) {
