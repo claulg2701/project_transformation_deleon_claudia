@@ -174,9 +174,11 @@ a {
 }
 
 .post {
-    overflow: hidden;
-    margin-bottom: 40px;
     border-bottom: 1px solid #e7ebed;
+}
+
+.post + .post {
+    margin-top: 40px;
 }
 
 .post .title {
