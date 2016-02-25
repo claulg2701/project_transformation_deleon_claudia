@@ -229,6 +229,10 @@ a {
     text-decoration: none;
 }
 
+.strong {
+  font-weight: bold;
+}
+
 @media (min-width: 768px) {
     .more,
     .comments {
