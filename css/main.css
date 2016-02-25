@@ -213,20 +213,13 @@ a {
     float: right;
 }
 
-.post .entry {
-    padding: 0 0 40px 0;
-    text-align: justify;
-}
-
 .links {
-    padding-top: 20px;
-    margin-bottom: 30px;
+    padding: 20px 0 30px;
 }
 
 .more,
 .comments {
-    display: block;
-    float: left;
+    display: inline-block;
     width: 88px;
     padding: 10px 5px;
     margin-right: 10px;
