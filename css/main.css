@@ -259,10 +259,11 @@ a {
     border-bottom: 1px solid #e7ebed;
     margin: 0 0;
     border-left: none;
+    font-size: 0.9em;
 }
 
 #sidebar ul > * + * {
-    padding: 6px;
+    padding: 6px 0;
 }
 
 #sidebar section li span {
@@ -382,7 +383,7 @@ a {
     #sidebar {
         width: calc(100% / 3 - 4em);
         float: left;
-        padding: 0 2em 0 0;
+        padding: 30px 2em 0 0;
     }
     #page {
         padding: 2em 0 6em;
