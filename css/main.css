@@ -224,11 +224,12 @@ a {
     margin-bottom: 30px;
 }
 
-.more {
+.more,
+.comments {
     display: block;
     float: left;
     width: 88px;
-    padding: 5px 5px;
+    padding: 10px 5px;
     margin-right: 10px;
     background: #222222;
     color: #ffffff;
@@ -236,15 +237,11 @@ a {
     text-decoration: none;
 }
 
-.comments {
-    display: block;
-    float: left;
-    width: 88px;
-    padding: 5px 5px;
-    background: #222222;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
+@media (min-width: 768px) {
+    .more,
+    .comments {
+        padding: 5px;
+    }
 }
 
 /* Sidebar */
